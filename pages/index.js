@@ -8,6 +8,10 @@ import NajotTalim from '../public/assets/images/najottalim.png'
 import Serius from '../public/assets/images/serius.jpg'
 import Ibexlab from '../public/assets/images/ibexlab.png'
 import MaxWay from '../public/assets/images/maxway_cover.jpg'
+import Yoshop from '../public/assets/images/yoshop.jpg'
+import Planner from '../public/assets/images/planner.jpg'
+import Vixpay from '../public/assets/images/vixpay.jpg'
+import Pomodoro from '../public/assets/images/pomodoro.jpg'
 
 export default function Home() {
   return (
@@ -87,10 +91,10 @@ export default function Home() {
                   • Experience working with a collaboration team on GitHub and GIT.<br />
                   • Other skills include HTML, CSS, XML, SASS, BOOTSTRAP, SCSS, MATERIAL UI, TAILWIND, ANT DESIGN<br />
                 </p>
-                <div className="space-y-5 lg:space-y-0 mt-6 flex flex-col lg:flex-row lg:bg-primary-20 lg:px-6 lg:py-4 lg:rounded-lg bg-[#f3eefc]">
+                <div className="space-y-5 lg:space-y-0 mt-6 flex flex-col max-[1530px]:gap-y-5 lg:flex-row lg:bg-primary-20 px-6 py-4 lg:rounded-lg bg-[#f3eefc]">
                   <div className="font-semibold lg:flex-1">
-                    <h2 className="lg:text-primary-80 text-[#9e80e4]">Location</h2>
-                    <div className="div flex space-x-2 items-center mt-2">
+                    <h2 className="lg:text-primary-80 text-[#9e80e4] max-[1024px]:text-[#6b7280]">Location</h2>
+                    <div className="flex space-x-2 items-center mt-2">
                       <div className="img-wrapper w-fit h-fit">
                         <Image src={UzbekistanFlag} alt="UzbekistanFlag" className="w-6 h-6 rounded-full object-cover border border-gray-300 text-transparent" />
                       </div>
@@ -98,8 +102,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="font-semibold lg:flex-1">
-                    <h2 className="lg:text-primary-80 text-[#9e80e4]">Github</h2>
-                    <div className="div flex space-x-2 items-center mt-1.5">
+                    <h2 className="lg:text-primary-80 text-[#9e80e4] max-[1024px]:text-[#6b7280]">Github</h2>
+                    <div className="flex space-x-2 items-center mt-1.5">
                       <a className="flex items-center text-primary-100" target="_blank" href="https://github.com/sardorkhayitmuradov">
                         <h3 className="text-lg text-[#845cdc]">sardorkhayitmuradov</h3>
                         <Image src={ArrowUpRight} alt="arrow-up-right" className="w-[24px] h-[24px] ml-2 text-transparent" />
@@ -107,8 +111,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="font-semibold lg:flex-1">
-                    <h2 className="lg:text-primary-80 text-[#9e80e4]">LinkedIn</h2>
-                    <div className="div flex space-x-2 items-center mt-1.5">
+                    <h2 className="lg:text-primary-80 text-[#9e80e4] max-[1024px]:text-[#6b7280]">LinkedIn</h2>
+                    <div className="flex space-x-2 items-center mt-1.5">
                       <a className="flex items-center text-primary-100" target="_blank" href="https://www.linkedin.com/in/sardorxayitmurodov/">
                         <h3 className="text-lg text-[#845cdc]">sardorxayitmurodov</h3>
                         <Image src={ArrowUpRight} alt="arrow-up-right" className="w-[24px] h-[24px] ml-2 text-transparent" />
@@ -116,8 +120,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="font-semibold lg:flex-1">
-                    <h2 className="lg:text-primary-80 text-[#9e80e4]">Email</h2>
-                    <div className="div flex space-x-2 items-center mt-1.5">
+                    <h2 className="lg:text-primary-80 text-[#9e80e4] max-[1024px]:text-[#6b7280]">Email</h2>
+                    <div className="flex space-x-2 items-center mt-1.5">
                       <a className="flex items-center text-primary-100" target="_blank" href="mailto:sardorxayitmurodov@gmail.com">
                         <h3 className="text-lg text-[#845cdc]">sardorxayitmurodov@gmail.com</h3>
                         <Image src={ArrowUpRight} alt="arrow-up-right" className="w-[24px] h-[24px] ml-2 text-transparent" />
@@ -252,16 +256,17 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={Yoshop} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
+                        <h2 className="text-lg font-bold font-headline">Yoshop Pos Terminal</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">A website of a Multifunctional inventory software that allows people to fully automates the work of the store</h3>
                         <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
+                          · Over 100+ <br />
                           · Daily 100+ orders with $150+ revenue<br />
                           · $100,000+ revenue in total
                         </p>
@@ -274,50 +279,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="rounded-lg w-full flex flex-col">
-                    <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
-                    </div>
-                    <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
-                      <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
-                      </div>
-                      <div>
-                        <hr />
-                        <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-lg w-full flex flex-col">
-                    <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
-                    </div>
-                    <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
-                      <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
-                      </div>
-                      <div>
-                        <hr />
-                        <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
                       <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
@@ -363,6 +325,53 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
+                  <div className="rounded-lg w-full flex flex-col">
+                    <div className="img-wrapper relative">
+                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                    </div>
+                    <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
+                      <div className="main-info px-4 py-4 flex-1">
+                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
+                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
+                          · 7% increase in sales of the physical store <br />
+                          · Daily 100+ orders with $150+ revenue<br />
+                          · $100,000+ revenue in total
+                        </p>
+                      </div>
+                      <div>
+                        <hr />
+                        <div className="flex w-full px-5 justify-end py-3 gap-3">
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-lg w-full flex flex-col">
+                    <div className="img-wrapper relative">
+                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                    </div>
+                    <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
+                      <div className="main-info px-4 py-4 flex-1">
+                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
+                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
+                          · 7% increase in sales of the physical store <br />
+                          · Daily 100+ orders with $150+ revenue<br />
+                          · $100,000+ revenue in total
+                        </p>
+                      </div>
+                      <div>
+                        <hr />
+                        <div className="flex w-full px-5 justify-end py-3 gap-3">
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
                       <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
