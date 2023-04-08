@@ -399,7 +399,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-primary-20 border-t border-t-primary-100 text-primary-100 py-5 px-4 mt-8 text-center font-semibold tracking-wider font-headline">Jasurbek Zokirov</div>
+        <div className="w-full bg-primary-20 border-t border-t-primary-100 text-primary-100 py-5 px-4 mt-8 text-center font-semibold tracking-wider font-headline">Sardor Khayitmuradov</div>
       </div>
     </main>
   )
