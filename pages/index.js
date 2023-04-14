@@ -12,6 +12,8 @@ import Yoshop from '../public/assets/images/yoshop.jpg'
 import Planner from '../public/assets/images/planner.jpg'
 import Vixpay from '../public/assets/images/vixpay.jpg'
 import Pomodoro from '../public/assets/images/pomodoro.jpg'
+import greenLine from '../public/assets/images/greenline.png'
+import apcBridge from '../public/assets/images/apc-bridge.png'
 
 export default function Home() {
   return (
@@ -65,7 +67,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="buttons flex mt-2 md:mt-4 lg:mt-6 space-x-3 items-start">
-                <a className="btn btn-regular inline-block" href="https://github.com/sardorkhayitmuradov">View Github</a>
+                <a className="btn btn-regular inline-block" target="_blank" href="https://github.com/sardorkhayitmuradov">View Github</a>
                 <a href="/assets/files/Sardor Khayitmuradov.docx" className="btn btn-primary flex">
                   <Image className="mr-2 text-transparent" src={DownloadIcon} alt="download" /> Download CV
                 </a>
@@ -140,7 +142,7 @@ export default function Home() {
               </div>
               <div className="flex-1 mt-4 lg:mt-0 ">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
-                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow">
+                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow hover:scale-[1.02] duration-300">
                     <div className="main-info px-8 mb-4">
                       <div className="flex">
                         <div className="img-wrapper">
@@ -161,7 +163,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow">
+                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow hover:scale-[1.02] duration-300">
                     <div className="main-info px-8 mb-4">
                       <div className="flex">
                         <div className="img-wrapper">
@@ -182,7 +184,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow">
+                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow hover:scale-[1.02] duration-300">
                     <div className="main-info px-8 mb-4">
                       <div className="flex">
                         <div className="img-wrapper">
@@ -202,7 +204,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow">
+                  <div className="border border-gray-200 rounded-lg pt-6 w-full shadow hover:scale-[1.02] duration-300">
                     <div className="main-info px-8 mb-4">
                       <div className="flex">
                         <div className="flex-1 ml-4">
@@ -222,6 +224,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -236,7 +239,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent h-auto" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
@@ -256,10 +259,10 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="rounded-lg w-full flex flex-col">
-                    <div className="img-wrapper relative">
-                      <Image src={Yoshop} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                    <div className="img-wrapper relative h-full">
+                      <Image src={Yoshop} alt="project icon" className="w-full rounded-t-md text-transparent h-full" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
@@ -274,7 +277,7 @@ export default function Home() {
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://www.yoshop.kz/">View Project</a>
                         </div>
                       </div>
                     </div>
@@ -282,11 +285,11 @@ export default function Home() {
 
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={Vixpay} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
+                        <h2 className="text-lg font-bold font-headline">Vixpay</h2>
                         <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
                         <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
                           · 7% increase in sales of the physical store <br />
@@ -297,7 +300,7 @@ export default function Home() {
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://www.vixpay.net/">View Project</a>
                         </div>
                       </div>
                     </div>
@@ -305,22 +308,17 @@ export default function Home() {
 
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={Planner} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
+                        <h2 className="text-lg font-bold font-headline">Planner CRM System</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website for Fast food restaurnts admin dashboard to manage the online orders from the clients</h3>
                       </div>
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://eltuvchi-dashboard.vercel.app/login">View Project</a>
                         </div>
                       </div>
                     </div>
@@ -328,22 +326,18 @@ export default function Home() {
 
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={Pomodoro} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
+                        <h2 className="text-lg font-bold font-headline">Pomodoro</h2>
                         <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
+                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· A scalable time manager for controlling necessary time</p>
                       </div>
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://pomodoro-app-v1.netlify.app/">View Project</a>
                         </div>
                       </div>
                     </div>
@@ -351,22 +345,19 @@ export default function Home() {
 
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={greenLine} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
+                        <h2 className="text-lg font-bold font-headline">GTD RELIABLE ENERGY SUPPLIER
+MIDDLE EAST AND AFRICA COUNTRIES</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website for Greenline Trade Distribution LLC is a distributor of EV charges, Solar systems, Industrial Batteries and UPS Systems.</h3>
+                      
                       </div>
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="http://greenlinetd.ae/">View Project</a>
                         </div>
                       </div>
                     </div>
@@ -374,22 +365,20 @@ export default function Home() {
 
                   <div className="rounded-lg w-full flex flex-col">
                     <div className="img-wrapper relative">
-                      <Image src={MaxWay} alt="project icon" className="w-full rounded-t-md text-transparent" />
+                      <Image src={apcBridge} alt="project icon" className="w-full rounded-t-md text-transparent" />
                     </div>
                     <div className="border border-gray-200 border-t-0 rounded-b-md flex flex-col flex-1">
                       <div className="main-info px-4 py-4 flex-1">
-                        <h2 className="text-lg font-bold font-headline">Food Delivery</h2>
-                        <h3 className="text-md text-gray-500 font-medium mt-1">A Website where people can order different types of fast food to their doors.</h3>
-                        <p className="text-gray-500 whitespace-pre-wrap mt-3">· Designed a scalable architecture <br />
-                          · 7% increase in sales of the physical store <br />
-                          · Daily 100+ orders with $150+ revenue<br />
-                          · $100,000+ revenue in total
-                        </p>
+                        <h2 className="text-lg font-bold font-headline">APC by Schneider Electric</h2>
+                        <h3 className="text-md text-gray-500 font-medium mt-1">APC, the flagship brand of Schneider Electric,
+provides clean battery backup, protection
+surge protection and physical infrastructure
+IT inside and outside the traditional IT environment</h3>
                       </div>
                       <div>
                         <hr />
                         <div className="flex w-full px-5 justify-end py-3 gap-3">
-                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="https://maxway.uz/">View Project</a>
+                          <a target="_blank" className="duration-75 text-[#8057db] font-semibold border border-transparent hover:border-[#9979e2] hover:bg-[#f3eefc] px-3 py-1 rounded-md" href="http://apc-abrisdc.com/">View Project</a>
                         </div>
                       </div>
                     </div>
