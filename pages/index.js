@@ -23,7 +23,7 @@ export default function Home() {
           <div className="poster w-full h-32 lg:h-44 relative">
             <div className="absolute home-layout top-6 left-1/2 -translate-x-1/2 hidden lg:block">
               <div className="flex justify-end">
-                <div className="FunEditor_window__HYG68 w-[200px] h-[120px]">
+                {/* <div className="FunEditor_window__HYG68 w-[200px] h-[120px]">
                   <div className="FunEditor_dots__ejXAt">
                     <div className="FunEditor_redDot__qw4CI"></div>
                     <div className="FunEditor_yellowDot__1a9Hb"></div>
@@ -37,20 +37,20 @@ export default function Home() {
                           GoTo
                           <span>
                             <span className="text-gray-400">
-                              {/* (){ */}
+                        
                             </span>
                             <div className="FunEditor_tab__hm59n">
                               <span className="text-gray-400">...</span>
                             </div>
                             <span className="text-gray-400">
-                              {/* } */}
+                         
                             </span>
                           </span>
                         </span>
                       </span>
                     </span>
                   </code>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="-z-10 absolute inset-0 bg-gradient-to-r from-[#C5AFEF] to-[#FACDE1]"></div>
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
               <div className="buttons flex mt-2 md:mt-4 lg:mt-6 space-x-3 items-start">
                 <a className="btn btn-regular inline-block" target="_blank" href="https://github.com/sardorkhayitmuradov">View Github</a>
-                <a href="/assets/files/Sardor Khayitmuradov.docx" className="btn btn-primary flex">
+                <a href="/assets/files/Sardor Khayitmuradov Resume.docx" className="btn btn-primary flex">
                   <Image className="mr-2 text-transparent" src={DownloadIcon} alt="download" /> Download CV
                 </a>
               </div>
